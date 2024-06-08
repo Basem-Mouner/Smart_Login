@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>S_Login</title>
+    <!--  -->
+    <link rel="icon" href="assests/images/1.png">
+    <!-- all CSS hear -->
+    <!--Bootstrap  -->
+    <link rel="stylesheet" href="Css-files/bootstrap.min.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="Css-files/all.min.css">
+    <!--media quary  -->
+    <link rel="stylesheet" href="Css-files/media.css">
+    <!--main style sheet  -->
+    <link rel="stylesheet" href="Css-files/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="web designer,developer web">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <section class="main-log  d-flex justify-content-center align-items-center  ">
+
+            <div id="SignIn" class="signIn  m-4 mt-5 p-4 d-block">
+                <h1 class=" text-center p-2 m-3">Smart Login System</h1>
+                <form>
+                    <div class="mb-3">
+
+                        <input type="text" class="form-control " id="EMAIL_Signin" placeholder="Enter your email">
+
+                    </div>
+                    <div class="mb-3">
+
+                        <input type="password" class="form-control " id="PASSWORD_Signin" placeholder="Enter your password">
+
+                    </div>
+                    <p class="text-center fs-5 m-0">
+                        <span class="" id="commentSignIN"></span>
+                    </p>
+                    <div class="d-flex justify-content-center ">
+                        <button type="submit" id='addBtn' class="btn btn-outline-info  py-1 my-3 w-100">Login</button>
+                    </div>
+                </form>
+                <p class="text-white text-center">Don’t have an account?
+                    <a class="signUpLink" href="">Sign Up</a>
+                </p>
+            </div>
+
+            <div id="SignUP" class="signUp  m-4  p-4 mt-5 d-none">
+                <h1 class=" text-center p-2 m-3 text-capitalize">Smart Login System</h1>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control " id="USERName" placeholder="Enter your name ...at least 3 char" novalidate>
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control " id="USEREMAIL" placeholder="Enter your email ..as lll@gmail.com" novalidate>
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="form-control " id="USERPASSWORD" placeholder="Enter your password ..at least 3 char" novalidate>
+                    </div>
+                    <p class="text-center fs-5 m-0">
+                        <span class="text-center" id="commentSignUP"></span>
+                    </p>
+                    <div class="d-flex justify-content-center ">
+                        <button type="submit" id='addBtn' class="btn btn-outline-info  py-1 my-3 w-100 ">Sign Up</button>
+                    </div>
+                </form>
+                <p class="text-white text-center">You have an account?
+                    <a class="signInLink" href="">Sign In</a>
+                </p>
+            </div>
+
+            <div id="MAINPAGE" class="container  d-flex justify-content-center align-items-center  vh-100 d-none">
+                <div class="wellcom_User w-75  p-5 text-center">
+                    <h1>Welcome
+                        <span class="" id="WELLCOM_User"></span>
+                    </h1>
+                </div>
+
+                <div class="navLogout fixed-top p-3   d-flex justify-content-between">
+                    <a class=" mb-0 ms-5 text-white text-decoration-none d-flex justify-content-center align-items-center" href="">SMART LOGIN
+                    </a>
+                    <div class="outlog me-4">
+                        <button type="submit" id='LOGOGOUTBtn' class="btn btn-outline-warning    ">Logout</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+
+    <footer></footer>
+
+    <!-- -------------------------------------------------------------------------------------- -->
+
+    <!-- js part -->
+    <script src="js-files/index.js ">
+    </script>
+    <script src="js-files/bs/bootstrap.bundle.js ">
+    </script>
+
+</body>
+
+</html>
+
+</html>

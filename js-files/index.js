@@ -7,25 +7,25 @@
 'use strict'
 
 //select inputs
-let signInPage = document.getElementById('SignIn');
-let signUpPage = document.getElementById('SignUP');
-let mainPage = document.getElementById('MAINPAGE');
-let signUp = document.querySelector('.signUpLink');
-let signIn = document.querySelector('.signInLink');
-let logOut = document.querySelector('#LOGOGOUTBtn');
+const signInPage = document.getElementById('SignIn');
+const signUpPage = document.getElementById('SignUP');
+const mainPage = document.getElementById('MAINPAGE');
+const signUp = document.querySelector('.signUpLink');
+const signIn = document.querySelector('.signInLink');
+const logOut = document.querySelector('#LOGOGOUTBtn');
 //SIGN UP
-let userName = document.getElementById('USERName');
-let userEmail = document.getElementById('USEREMAIL');
-let userPassword = document.getElementById('USERPASSWORD')
+const userName = document.getElementById('USERName');
+const userEmail = document.getElementById('USEREMAIL');
+const userPassword = document.getElementById('USERPASSWORD')
     //SIGN in
-let signInEmail = document.getElementById('EMAIL_Signin');
-let signInPassword = document.getElementById('PASSWORD_Signin')
+const signInEmail = document.getElementById('EMAIL_Signin');
+const signInPassword = document.getElementById('PASSWORD_Signin')
     //select element to do some action and events
-let formLogin = document.forms[0];
-let formSignUp = document.forms[1];
-let signUpComment = document.getElementById('commentSignUP');
-let signInComment = document.getElementById('commentSignIN');
-let wellcomUser = document.getElementById('WELLCOM_User');
+const formLogin = document.forms[0];
+const formSignUp = document.forms[1];
+const signUpComment = document.getElementById('commentSignUP');
+const signInComment = document.getElementById('commentSignIN');
+const wellcomUser = document.getElementById('WELLCOM_User');
 //*********************************************************/
 //usersDataContainer:Array to put anew object for user data 
 let usersData;
